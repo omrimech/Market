@@ -1,0 +1,185 @@
+/* To center NAVBAR */
+.admin-home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.admin-home-top {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Edit Order Container */
+.edit-order {
+  width: 80%;
+  padding: 20px;
+  gap: 10px;
+}
+.edit-order-h2 {
+  font-size: 2em;
+  color: #333;
+  text-align: left;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.edit-order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+  }
+  
+  .edit-order-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .edit-order-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-order-form button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-order-form button:hover {
+    background-color: #0056b3;
+  }
+
+  /* AllOrders */
+  .admin-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  /* Orders Table */
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .order-table th,
+  .order-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .order-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .btn-edit,
+  .btn-delete,
+  .btn-orders {
+    padding: 6px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btn-edit {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-orders {
+    background-color: #d36014;
+    color: white;
+  }
+  
+  
+  .btn-edit:hover {
+    background-color: #218838;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Search Bar Styles */
+  .search-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+
+
+/* Search By Status */
+.select-dropdown {
+  width: 200px; /* Adjust width as needed */
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.select-dropdown:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.select-dropdown option {
+  font-size: 16px;
+  padding: 4px;
+}
+
+/* Edit Order Page */
