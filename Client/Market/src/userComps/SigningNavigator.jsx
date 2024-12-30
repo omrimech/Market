@@ -12,7 +12,6 @@ import AdminLogin from "../AdminComps/AdminLogin";
 import OrderNumber from "../OrdersComp/OrderNumber";
 import ChangePassword from "./ChagenPassword/ChangePassword";
 import EditAddress from "./EditAddress/EditAddress";
-import PaymentMethod from "./PaymentMethod/PaymentMethod";
 import AllUsers from "../AdminComps/Users/AllUsers";
 import EditUser from "../AdminComps/Users/EditUser";
 import EditOrder from "../AdminComps/Orders/EditOrder";
@@ -35,11 +34,10 @@ const Navigator = () => {
         <Route path="/OrderNumber/:id" element={<OrderNumber />}></Route>
         <Route path="/ChangePassword" element={<ChangePassword />}></Route>
         <Route path="/EditAddress" element={<EditAddress />}></Route>
-        <Route path="/PaymentMethod" element={<PaymentMethod />}></Route>
         <Route path="/AllUsers" element={<AllUsers />}></Route>
         <Route path="/EditUser/:id" element={<EditUser />}></Route>
-        <Route path="/EditOrder/:id" element={<EditOrder/>}></Route>
-        <Route path="/AllOrders" element={<AllOrders/>}></Route>
+        <Route path="/EditOrder/:id" element={<EditOrder />}></Route>
+        <Route path="/AllOrders" element={<AllOrders />}></Route>
       </Routes>
     </div>
   );
